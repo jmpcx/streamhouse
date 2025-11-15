@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from "@/components/theme-provider";
-import Navbar from "@/components/navbar";
-import Home from './Home';
+import { ThemeProvider } from "@/components/theme-provider.tsx";
+import Navbar from "@/components/navbar.tsx";
+import Home from '@/app/routes/Home.tsx';
 import NotFoundPage from '@/components/page/NotFound.tsx';
-import './assets/css/fonts.css';
+import '@/assets/css/fonts.css';
 
 function App() {
     return (
